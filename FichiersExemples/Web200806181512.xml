@@ -1,0 +1,83 @@
+<?xml version='1.0'  encoding="iso-8859-1"?>
+<!DOCTYPE proshop SYSTEM "ProshopVente.dtd">
+
+
+<proshop datesysteme="2008-06-18T15:12:30">
+	<ventes date="2008-06-06" magasin="003">
+		<ticket numero="12564" heure="10:05:33"> 			
+			<client>
+				<code>152365425</code>
+				<nom>AUFRAISE</nom>
+				<prenom>charlotte</prenom>
+				<adresse1>15 impasse du bout du monde</adresse1>
+				<codepostal>33000</codepostal>
+				<ville>BORDEAUX</ville>
+			</client>
+			<produits>
+				<article libelle="pantalon toile" collection="E08">
+					<gencod>001222152124</gencod>
+					<taille>=xl</taille>
+					<pvttc>45.30</pvttc>
+					<quantite>2</quantite>
+				</article>
+				<article>
+					<gencod>001258258122</gencod>
+					<taille>34</taille>
+					<pvttc>20</pvttc>
+					<remise>5</remise>
+					<coderemise>ami</coderemise>
+				</article>
+			</produits>
+			<reglements>
+				<mode>
+					<code>cb</code>
+					<montant>65.30</montant>
+				</mode>
+			</reglements>
+		</ticket>
+		<ticket numero="12566" heure="10:12:25">
+			<client>
+				<code>152365425</code>
+				<nom>DUPOND &amp;CIE</nom>
+				<ville>Avignon</ville>
+				<email>dupond@libre.fr</email>
+			</client>
+			<produits>
+				<article>
+					<gencod>001222169603</gencod>
+					<taille>xxl</taille>
+					<pvttc>70</pvttc>
+				</article>
+			</produits>			
+			<reglements>
+				<mode>
+					<code>cb</code>
+					<montant>70</montant>
+				</mode>
+			</reglements>
+		</ticket>
+	</ventes>
+	<ventes date="2008-06-06" magasin="004">
+		<ticket numero="00464" heure="09:05:11"> 			
+			<client>
+				<code>1525</code>
+				<nom>MARTIN</nom>
+			</client>
+			<produits>
+				<article>
+					<gencod>001222150006</gencod>
+					<taille>=38</taille>
+					<pvttc>82.30</pvttc>
+					<remise>2.30</remise>
+					<coderemise>*S</coderemise>
+				</article>
+			</produits>
+			<reglements>
+				<mode>
+					<code>CB</code>
+					<montant>80.00</montant>
+				</mode>
+			</reglements>
+		</ticket>
+	</ventes>
+</proshop>

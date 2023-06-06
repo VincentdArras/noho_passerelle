@@ -1,0 +1,4 @@
+Code fournisseur;libelle fournisseur;num article interne;type web;libelle article;code groupe;libelle groupe;code famille;libelle famille;code sous famille;libelle sous famille;collection;modele;matiere;couleur;divers;photo;matiere interne;couleur interne;divers interne;ligne produit;libelle taille;quantite;gencod interne;gencod fournisseur;pvttc;pvpromo;code tva;taux tva;date creation;date modification
+UNIQUE;UNIQUE DRESSED SRL;5042811;1;;2;FEMME;1;PETITS HAUTS FEMME;5;HAUTS;H22;U6759;;DORÉ;;;;;;;TU;2;9005040000000    ;;26.99;26.99;1;20;20221119;20221226
+UNIQUE;UNIQUE DRESSED SRL;5042811;1;;2;FEMME;1;PETITS HAUTS FEMME;5;HAUTS;H22;U6759;;DORÉ;;;;;;;TU;4;9005040000000    ;;26.99;26.99;1;20;20221119;20221226
+UNIQUE;Truc cool;5049999;1;;2;FEMME;1;PETITS HAUTS FEMME;5;HAUTS;H22;U6759;;DORÉ;;;;;;;TU;4;9005050000000    ;;26.99;26.99;1;20;20221119;20221226

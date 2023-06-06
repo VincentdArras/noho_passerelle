@@ -1,0 +1,76 @@
+
+	<!--
+	*****************************************************************************************************	
+		
+		DESCRIPTION DE L EXPORT XML DES REFERENCES
+				
+	les balises :
+	===============
+		Ce sont les rubriques demandées par le client
+		Certaines ne sont pas obligatoires dans Proshop et peuvent ne pas etre renseignées
+		Elles sont alors définies comme facultatives (?)
+		
+		
+	les attributs :
+	=================
+		Ce sont des données facultatives pour l'export web, mais elles constituent
+		une information supplémentaires.
+		
+		
+    Type de données
+    ====================
+    exemple    magasin entier <= 3  = entier sur 3 chiffres maximum
+	*****************************************************************************************************
+	-->
+
+<!ELEMENT stock (fournisseur+)>
+
+<!ATTLIST stock
+	datesysteme 		CDATA   #REQUIRED > 	
+	<!-- date et heure de création du document 
+      datetime AAAA-MM-JJtHH-MM-SS -->
+	
+<!ELEMENT fournisseur (nom, reference+) >
+<!ATTLIST fournisseur 
+	code 		CDATA #REQUIRED 				 	
+	<!-- 	code fournisseur chaine < 7 -->
+	
+<!ELEMENT reference (typeweb, libelle?, groupe, famille,sousfam, collection, modele, matiere?, couleur?, divers?,photo? ,taille?  ) >
+<!ATTLIST reference
+	numero 	 CDATA 	#REQUIRED	
+	<!--  numero interne dans Proshop : chaine 9 -->
+
+<!ELEMENT typeweb		 	(#PCDATA)>		<!-- chaine 1 -->
+<!ELEMENT libelle		 	(#PCDATA)>		<!-- chaine <= 30 -->
+<!ELEMENT groupe 			(#PCDATA)>		<!-- chaine 1 -->
+<!ATTLIST groupe
+	libelle 	 CDATA 	#REQUIRED	<!--  libellé du groupe : chaine 30 -->
+
+<!ELEMENT famille 			(#PCDATA)>		<!-- chaine 1 -->
+<!ATTLIST famille
+	libelle 	 CDATA 	#REQUIRED	<!--  libellé de la famile : chaine 30 -->
+
+<!ELEMENT sousfam 			(#PCDATA)>		<!-- chaine 1 -->
+<!ATTLIST sousfam
+	libelle 	 CDATA 	#REQUIRED	<!--  libellé de la sous famile : chaine 30 -->
+
+<!ELEMENT collection		(#PCDATA)>		<!-- chaine 3 -->
+<!ELEMENT modele 			(#PCDATA)>		<!-- chaine <= 8 -->
+<!ELEMENT matiere 			(#PCDATA)>		<!-- chaine <= 6 -->
+<!ELEMENT couleur			(#PCDATA)>		<!-- chaine <= 6 -->
+<!ELEMENT divers			(#PCDATA)>		<!-- chaine <= 2 -->
+<!ELEMENT photo				(#PCDATA)>		<!-- chaine 8 Partie générique des photos de la reférence-->
+<!ELEMENT taille			(nom, quantite, gencod, pvttc, pvpromo)
+
+<!ATTLIST article 
+	position 			CDATA 	#REQUIRED
+	<!-- numerique 2
+		position de la taille dans la grille de taille Proshop 
+		(position de 01 à 20 ) -->
+
+<!ELEMENT nom			(#PCDATA)>		<!-- chaine < 5  -->
+<!ELEMENT quantite		(#PCDATA)>		<!-- numerique -->
+<!ELEMENT gencod		(#PCDATA)>		<!-- gencod numérique 12 | 13-->
+<!ELEMENT pvttc			(#PCDATA)>		<!-- numerique -->
+<!ELEMENT pvpromo		(#PCDATA)>		<!-- numerique -->
+	

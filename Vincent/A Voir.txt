@@ -1,0 +1,26 @@
+code remise ou percent de remise par produit !!!!
+s'applique au produit ou jsp
+
+traitement des commandes uniquement ok 
+mais sauvegarde des anciennes commandes pas passée avec supression
+gerer les telephones avec des if pour choisir le plus intéréssant
+
+Export : Xml direct ou csv d'abord
+
+Proshop:
+import uniquement en xml dans la forme donné
+export xml ou csv via une taches planifié qui peut arrivé sur un autre serveur
+
+
+Question aquitem:
+gencod pas complet sans taille? probleme à voir
+	- taille définie plus clé à calculer
+	- rentrer tout les ean-13 sous prestashop
+		remise pourcent, prix , s'applique sur le pvttc ? pose probleme si prx de vente != du prix proshop (pas de probleme)
+		I pas besoin de moins dans la logique, à essayer
+Dossier ou mettre le xml et s'il est supprimé une fois pris? oui 
+
+
+Rien de nouveau
+
+Probleme avec taches cron serveur id admin, https://www.ibm.com/docs/fr/iis/9.1?topic=pgcws2-configuring-permissions-groups-windows-server-2008-domain-controller

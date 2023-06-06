@@ -1,0 +1,521 @@
+Début du fichier (vérifier archive pour données antérieurs)
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+***Envoi du 2023-03-08 10:27:21.792913
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 10:36:04.831601
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 10:38:48.009153
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 10:39:46.732175
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 10:41:48.389705
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 10:42:18.551927
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 10:42:32.103222
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 11:55:36.422249
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 12:00:03.373557
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 12:02:58.064365
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 12:03:27.597069
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 12:04:01.267442
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 12:04:28.169766
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 12:08:02.979850
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 12:08:33.031751
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 12:08:44.061169
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-03-08 12:36:54.310415
+Error occurred : list index out of range
+
+***Envoi du 2023-03-08 12:38:50.450361
+Error occurred : list index out of range
+
+***Envoi du 2023-03-08 12:40:44.563632
+
+***Envoi du 2023-03-08 12:41:50.549695
+Error occurred : local variable 'last_order_process' referenced before assignment
+
+***Envoi du 2023-03-08 12:43:55.910301
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 12:47:22.668648
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 12:49:00.919246
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 12:49:38.677309
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 14:11:58.243889
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 14:12:28.052430
+Error occurred : local variable 'last_order_process' referenced before assignment
+
+***Envoi du 2023-03-08 14:12:49.950373
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 14:14:50.557085
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 14:17:48.472669
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 14:21:54.132282
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 15:02:34.921278
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 15:29:12.645196
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 15:33:27.457828
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 15:34:08.816750
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 15:34:48.351689
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-03-08 15:35:39.966370
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:01:58.131081
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-06-05 12:04:50.207208
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:05:05.833776
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé
+
+***Envoi du 2023-06-05 12:07:12.020421
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:07:52.831617
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:08:38.222146
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:08:57.082837
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:09:15.771764
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:09:42.805899
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:12:28.537106
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:26:32.472020
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:26:42.405476
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:28:46.933810
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:29:04.717292
+Envoi terminé
+
+***Envoi du 2023-06-05 12:29:56.076371
+Envoi terminé
+
+***Envoi du 2023-06-05 12:30:11.201166
+Pas de commande à importer
+Pas de retour à importer
+Envoi terminé
+
+***Envoi du 2023-06-05 12:30:30.594847
+Pas de retour à importer
+Réecritre terminée
+Envoi terminé

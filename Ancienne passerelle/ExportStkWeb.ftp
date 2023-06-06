@@ -1,0 +1,84 @@
+﻿; FICHIER  PARAMETRE DE CONNEXION ET D ENVOI   Export CA Web VERSION 22/07/2014
+
+;; [ENVOI]
+; Env.Fic1 se remplit automatiquement par ExportInfoWeb.exe
+; Indique à FTP.exe le fichier à envoyer
+
+; [EXPORTWEB]
+; Semaines = nbre de semaines de ventes à envoyer.
+;		Par défaut = 2 
+; DateDebut= Date à partir de laquelle  on envoie. ( le début sera le premier jour de la semaine de cette date) 
+;  		ou  ligne de commande /DATE=AAAAMMJJ
+; 		Par défaut est la date du jour
+; CodeMagasin= Code magasin à traiter
+;		ou ligne de commande /MAG=006
+; 		Par défaut  = Magasin en cours dans la base 	
+; FichierXML= Chemin + nom complet du fichier à créer
+;		ou chemin sans le nom. Le nom du fichier sera automatiquement ajouté par <magasin>.xml
+;		ou ligne de commande /XML=c:\temp\  ou  /XML=c:\temp\blabla.xml
+;		Par défaut  = C:\ProgramData\Proshop\<magasin>.xml
+
+; [EXPORTSTKWEB]
+
+; TypeTaille = type de taille à exporter dans le xml 
+; 		0 = uniquement les tailles avec stock positif . 
+;		1 = toutes les tailles qui ont un libellé. Le stock peut etre égal à 0.    
+;			( si le stock est négatif, la valeur 0 est envoyée)
+;		Par défaut = 0
+		
+; DateDebut idem à EXPORTWEB
+; ou Jours  = nombre de jours à prendre depuis la dernière modification de la fiche article
+; 			  ou du stock	
+; Par défaut si DateDebut et Jours ne sont pas renseignés, Jours = 1
+
+; CodeMagasin= Code magasin à traiter
+;		ou ligne de commande /MAG=006
+; 		Par défaut  = Magasin en cours dans la base 	
+; FichierXML= Chemin + nom complet du fichier à créer
+;		ou chemin sans le nom. Le nom du fichier sera automatiquement ajouté par STK<magasin>.xml
+;		ou ligne de commande /XML=c:\temp\  ou  /XML=c:\temp\blabla.xml
+;		Par défaut  = C:\ProgramData\Proshop\STK<magasin>.xml
+
+
+; DernierEnvoi et  TpsTraitement sont remplis à titre informatif par l'application
+;   --------------------
+
+; Le numéro de société 
+; 		Par ligne de commande /NOSOC=03 
+;		Par défaut = première société lue dans PAP.ini
+; 		( Ne peut pas etre renseigné dans le fichier ini )
+; --------------------------------------------------------------------------------------------------
+
+[GENERAL]
+Trace=C:\ProgramData\Proshop\exportstk.log
+ModeAppel=Envoi
+EnTacheDeFond=0
+
+[CONNEXION]
+Cnx.Adresse=ftp.alienor.net
+Cnx.Anonyme=0
+Cnx.Utilisateur=web-3825_noho
+Cnx.MDP=jeSpuEHNMLF4Qg
+Cnx.Securite=1
+Cnx.IgnoreErreur=1
+Cnx.Delai
+Cnx.TypeConnexion=1
+Cnx.TypeTransfert=2
+
+[ENVOI]
+Env.RepDest=/
+Env.ModeSuppression=0
+Env.ModeRemplacement=1 
+Env.Fic1=C:\ProgramData\Proshop\STK005_jour_encours.xml
+
+[EXPORTSTKWEB]
+CodeMagasin=005
+Jours=
+TypeTaille=1
+DateDebut=
+DernierEnvoi=22/07/2014 12:18:03:56
+TpsTraitement=58.31
+
+[EXPORTWEB]
+DernierEnvoi=10/10/2022 19:20:01:45
+TpsTraitement=1.31

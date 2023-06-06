@@ -1,0 +1,57 @@
+﻿; FICHIER  PARAMETRE DE CONNEXION ET D ENVOI   Export CA Web VERSION 22/07/2014
+
+; [ENVOI]
+; Env.Fic1 se remplit automatiquement par ExportInfoWeb.exe
+; Indique à FTP.exe le fichier à envoyer
+
+; [EXPORTWEB]
+; Semaines = nbre de semaines de ventes à envoyer.
+;		Par défaut = 2 
+; DateDebut= Date à partir de laquelle  on envoie. ( le début sera le premier jour de la semaine de cette date) 
+;  		ou  ligne de commande /DATE=AAAAMMJJ
+; 		Par défaut est la date du jour
+; CodeMagasin= Code magasin à traiter
+;		ou ligne de commande /MAG=006
+; 		Par défaut  = Magasin en cours dans la base 	
+; FichierXML= Chemin + nom complet du fichier à créer
+;		ou chemin sans le nom. Le nom du fichier sera automatiquement ajouté par <magasin>.xml
+;		ou ligne de commande /XML=c:\temp\  ou  /XML=c:\temp\blabla.xml
+;		Par défaut  = C:\ProgramData\Proshop\<magasin>.xml
+
+; DernierEnvoi et  TpsTraitement sont remplis à titre informatif par l'application
+;   --------------------
+
+; Le numéro de société 
+; 		Par ligne de commande /NOSOC=03 
+;		Par défaut = première société lue dans PAP.ini
+; 		( Ne peut pas etre renseigné dans le fichier ini )
+; --------------------------------------------------------------------------------------------------
+
+[GENERAL]
+Trace=c:\temp\log.txt
+ModeAppel=Envoi
+EnTacheDeFond=0
+
+[CONNEXION]
+Cnx.Adresse=monproshop.aquitem.fr
+Cnx.Anonyme=0
+Cnx.Utilisateur=NOHO
+Cnx.MDP=SL+7+zUXOMs
+Cnx.Securite=1
+Cnx.IgnoreErreur=1
+Cnx.Delai
+Cnx.TypeConnexion=1
+Cnx.TypeTransfert=2
+
+[ENVOI]
+Env.RepDest=/
+Env.ModeSuppression=0
+Env.ModeRemplacement=1 
+Env.Fic1=C:\ProgramData\Proshop\008.xml
+
+[EXPORTWEB]
+Semaines=
+DateDebut=
+CodeMagasin=008
+DernierEnvoi=13/10/2022 16:47:38:43
+TpsTraitement=0.5

@@ -1,0 +1,51 @@
+Info PASSERELLE
+
+Heure taches cron:
+XX:55 et XX:25 -> Export commande sur ftp (module presta) 					<Cron sur module>			éxécution: -10 secondes
+XX:57 et XX:27 -> Création commande Xml (code python) 					<Cron sur serveur>		éxécution: -10 secondes
+XX:00 et XX:30 -> Import commande sur proshop 							<Cron par Proshop>								
+XX:10 et XX:40 -> Export des références proshop 						<Cron par Proshop>		éxécution: -2 minutes
+XX:14 et XX:44 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module> 		éxécution: -3 minutes
+XX:17 et XX:47 -> Export commande sur ftp (module presta) 					<Cron sur module>			éxécution: -10 secondes
+XX:19 et XX:49 -> Mise à jour références sur fichier ftp (code python)			<Cron sur serveur>		éxécution: -10 secondes
+XX:20 et XX:50 -> Import des références proshop (maj produit module prestashop) 	<Cron sur module> 		éxécution: -5 minutes
+
+
+Desactiver les crons
+1. Sur internet 
+Barre des favoris google->Vincent->Cron-> Presta Export cron-> Bouton slide
+Barre des favoris google->Vincent->Cron-> Presta Import cron-> Activé (X ou V)
+
+Barre des favoris google->Vincent->Cron-> export commande plesk -> Actif en haut de la page -> appliquer
+Barre des favoris google->Vincent->Cron-> import commande plesk -> Actif en haut de la page -> appliquer
+
+2. Sur le serveur
+Touche windows-> Planificateur de taches -> clic droit sur import commande -> Activer/Desactiver
+Touche windows-> Planificateur de taches -> clic droit sur Modif ref -> Activer/Desactiver
+
+
+Fonctionnement passerelle
+La passerrelle a pour but d'intégrer les ventes e-commerce sur proshop et de mettre à jour les stocks de prestshop depuis proshop.
+Tous les documents utilisés par le programme se trouve dans paserrellepy, une fois le xml sur le ftp, dans le dossier import, proshop le récupère et l'intègre.
+
+Pour la premiere partie on utilise un module prestashop,"Order Export" qui envoi un fichier csv sur un ftp, celui-ci contient les informations nécessaires pour intégrer les ventes.
+(adresse ftp0.aquitem.fr:21 login: nohoWeb / nohoWeb2022!)
+
+Un code python nommé test9_xml transforme ce fichier csv en xml acceptable par proshop, le .py commenté se trouve à la racine de l'export, il peut etre ouvert avec un editeur de code pour etre modifier. Attention chaque petit changement peut engendrer des erreurs. Ce code est convertie en éxécutable (.exe) par un logiciel nommé "auto-py-to-exe", qui s'execute en console, attention, il faut cocher "Window Based (hide the console)" pour pas que le programme ouvre une console lors de son éxécution. Ce code met à jour un document texte "Trace1" à chaque éxécution pour permettre un suivi, qui peut être intéressant en cas d'erreurs. Quand "Trace1" ou "Trace2" est trop volumineux, il stock les deux sur "ArchiveTrace". Chaque fichier xml des ventes exporté vers Proshop est aussi archivé dans "ArchiveExport". Ce code ne transmet pas les commandes payées avec des bon cadeaux.
+
+Une fois le xml sur le FTP, Proshop le recupère et l'intègre toutes les 30 minutes. Il le supprime automatiquement après l'import.
+
+Par la suite Proshop produit un fichier csv de ses stocks actifs(au moins 1 stock dans une déclinaisons) avec tous les produits sur le magasin 008. Il place ce fichier sur le FTP.
+
+Ce fichier est importer par le module Prestashop "Product Catalog Import" avec le paramètre "NouveauProduitImport", il ajoute donc uniquement les nouveaux produits sur prestashop. Le nom des produits est le nom du fournisseur + la matiere + la couleur. Il importe aussi son modèle(référence), son prix, ses déclinaisons avec leur gencod. Il importe le fichier "ExportCSV".
+
+Dans le même temps, notre module d'export des commandes("Order Export") refait un export.
+
+Un deuxième code python est éxécuté, celui ci se nomme test2_csv, il peut être modifié et doit être passé en éxécutable(.exe) comme l'autre. Ce code créer un fichier "ExportCSVmod" qu'il dépose sur le FTP, dans celui-ci, il ajoute les id produits des bon cadeaux pour éviter qu'il soit remis à 0 de stock sur Prestashop. Il vérifie également si l'import a raté des ventes et si c'est le cas il retire la ligne du produit qui va donc voir son stock à 0 jusqu'au prochain import(même s'il reste du stock). Cela permet de réduire les erreurs de stock sur une plage de 6 minutes.
+
+Enfin, ce fichier est importer par le module Prestashop "Product Catalog Import" avec le paramètre "MajProduitImport0". Son rôle est de mettre à jour les stocks Prestashop, pour ça, il lit le fichier "ExportCSVmod" sur le FTP. Il supprime les déclinaisons de chaque produit qu'il importe pour éviter d'avoir 10 déclinaisons hors stock, il n'importe pas les déclinaisons avec 0 de stock. Il met en quantité 0 les produits qui ne sont pas dans le fichier. Pour les produits déjà en stock, il ne met pas à jour le nom, le prix et le modèle. Il supprime le fichier "ExportCSVmod" après son import, pour éviter un autre import avec des stocks passés.
+
+Ce cycle se répète toutes les 30 minutes. Sur le serveur les fichiers se trouve sur le disque "D:" dans le dossier "Passerellepy".
+
+En cas de bug du back office
+Barre des favoris google->Vincent->Cron-> lien plesk fichier prod-> chemin du fichier(Repertoire principal>httpdocs>SITE>var>cache) -> renommer "prod" en "prodold.."(n+1)

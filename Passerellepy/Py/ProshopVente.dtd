@@ -1,0 +1,104 @@
+
+	<!--
+	*****************************************************************************************************	
+	les balises :
+	===============
+		?  sont les rubriques facultatives du fichier des ventes de Proshop. 
+		Si elles sont renseignées, leurs valeurs seront enregistrées.
+
+		Les autres balises représentent les données obligatoires
+		
+	les attributs :
+	=================
+		#IMPLIED  sont des données facultatives.Ce sont des rubriques de fichiers liés aux ventes
+		Elles existent d'une facon obligatoires ou non dans Proshop, mais ne seront pas enregistrées. 
+		Elles peuvent servir pour info, requetes, controles etc. 
+
+		#REQUIRED sont des données obligatoires pour l'enregistrement des ventes dans Proshop.
+		Elles sont communes à tous les élements fils
+	
+	Les entités et CDATA :
+	=======================
+		Les sections CDATA 	ne sont pas reconnues par WINDEV par conséquent  
+			 Ne pas écrire : 	<nom><![CDATA[DUPOND & CIE]]></nom>
+					Ecrire :	<nom>DUPOND &amp; CIE</nom>
+		
+		Entités XML à respecter :		
+			&lt; 	< 	inférieur à
+			&gt; 	> 	supérieur à
+			&amp; 	& 	et commercial
+			&apos; 	' 	apostrophe
+			&quot; 	" 	double quote
+		
+    Type de données
+    ====================
+    exemple    magasin entier <= 3  = entier sur 3 chiffres maximum
+	*****************************************************************************************************
+	-->
+
+<!ELEMENT proshop (ventes+)>
+
+<!ATTLIST proshop
+	datesysteme 		CDATA   #REQUIRED > 	
+	<!-- date et heure de création du document 
+      datetime AAAA-MM-JJtHH-MM-SS -->
+	
+<!ELEMENT ventes (ticket+) >
+<!ATTLIST ventes 
+	date 		CDATA #REQUIRED 				 	
+	magasin CDATA	#REQUIRED >
+	<!-- 	date AAAA-MM-JJ
+			  magasin entier <= 3 -->
+	
+<!ELEMENT ticket (client?, produits, reglements) >
+<!ATTLIST ticket
+	numero 	 CDATA 	#REQUIRED	
+	heure 	 CDATA 	#REQUIRED >
+	<!--  numero: chaine
+        heure: HH:MM -->
+
+<!ELEMENT client  (code?,nofidelite?,civilite?,nom,prenom?,adresse1?,adresse2?,codepostal?,ville?,telephone?, email?,commentaire?) >
+<!ELEMENT code 			 	(#PCDATA)>		<!-- 2 < chaine < 14 -->
+<!ELEMENT nofidelite	 	(#PCDATA)>		<!-- gencod numérique 12 | 13-->
+<!ELEMENT civilite 			(#PCDATA)>		<!-- chaine < 7 -->
+<!ELEMENT nom 				(#PCDATA)>		<!-- 2 < chaine < 36 -->
+<!ELEMENT prenom 			(#PCDATA)>		<!-- chaine < 26 -->
+<!ELEMENT adresse1 			(#PCDATA)>		<!-- chaine < 36 -->
+<!ELEMENT adresse2 			(#PCDATA)>		<!-- chaine < 36 -->
+<!ELEMENT codepostal		(#PCDATA)>		<!-- chaine < 9 -->
+<!ELEMENT ville				(#PCDATA)>		<!-- chaine < 31 -->
+<!ELEMENT telephone			(#PCDATA)>		<!-- chaine < 21 -->
+<!ELEMENT email				(#PCDATA)>		<!-- chaine < 51 -->
+<!ELEMENT commentaire 		(#PCDATA)>		<!-- chaine < 31 -->
+
+	
+<!ELEMENT produits (article+)>
+		
+<!ELEMENT article (type?, gencod,taille,prht?,tva?,pvttc,quantite?, remise?,coderemise?, commentaire?)>
+<!ATTLIST article 
+	libelle 			CDATA 	#IMPLIED
+  couleur 		CDATA 	#IMPLIED
+	fournisseur			CDATA 	#IMPLIED
+	gfsf	 			CDATA 	#IMPLIED
+	ligneproduit		CDATA 	#IMPLIED
+	collection 			CDATA 	#IMPLIED >
+	<!--Aucune contrainte -->
+
+<!ELEMENT type			(#PCDATA)>		<!-- chaine "V" |H | BA -->
+<!ELEMENT gencod		(#PCDATA)>		<!-- gencod 12 | 13 -->
+<!ELEMENT taille		(#PCDATA)>		<!-- 0 < chaine < 5 -->
+<!ELEMENT prht			(#PCDATA)>		<!-- reel -->
+<!ELEMENT tva			(#PCDATA)>		<!-- reel -->
+<!ELEMENT pvttc			(#PCDATA)>		<!-- reel -->
+<!ELEMENT quantite		(#PCDATA)>		<!-- entier -->
+<!ELEMENT remise		(#PCDATA)>		<!-- reel -->
+<!ELEMENT coderemise 	(#PCDATA)>		<!-- chaine < 5 -->
+
+
+<!ELEMENT reglements (mode+)>			
+<!ELEMENT mode	(code,montant)>
+<!ATTLIST mode
+	libelle CDATA #IMPLIED > <!--Aucune contrainte -->
+
+<!--ELEMENT 	code	(#PCDATA)>	voir plus haut		 1 < chaine < 6 -->
+<!ELEMENT montant	(#PCDATA)>		<!-- reel -->

@@ -1,0 +1,181 @@
+-----------------20191102113000073-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 02/11/2019 11:30:00-----------------20191104103000053-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 04/11/2019 10:30:00-----------------20191224113000310-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 24/12/2019 11:30:00-----------------20200608103000263-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 08/06/2020 10:30:00-----------------20200728173000587-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 28/07/2020 17:30:00-----------------20201212183000085-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 12/12/2020 18:30:00-----------------20210527193000141-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 27/05/2021 19:30:00-----------------20210625193000286-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 25/06/2021 19:30:00-----------------20210712113000285-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 12/07/2021 11:30:00-----------------20210902183000258-----------------Appel WL :
+Traitement de 'Procédure globale P_OuverturePAP00' (COL_Ini.P_OuverturePAP00), ligne 155, thread 0
+Fonction 'Ferme', syntaxe 1
+
+Que s'est-il passé ?
+La fenêtre '' est inconnue.
+
+Code erreur : 10001
+Niveau : erreur fatale (EL_FATAL)
+
+Dump de l'erreur du module 'wd180obj.dll' (18.0.429.31).
+Identifiant des informations détaillées (.err) : 10001
+Informations de débogage :
+Fonction (1,2)
+Informations supplémentaires :
+EIT_PILEWL :
+Procédure globale P_OuverturePAP00 (COL_Ini.P_OuverturePAP00), ligne 155
+Initialisation de EXPORTINFOWEB (), ligne 614
+EIT_DATEHEURE : 02/09/2021 18:30:00Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0Division par 0

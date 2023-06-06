@@ -1,0 +1,2 @@
+Product ID*;Référence produit;Attribute (Name:Type:Position)*;Value (Value:Position)*;Reference(nec pour trouver);EAN13;UPC;Wholesale price;Prix d'achat;Impact on price;Ecotax;Quantity;Minimal quantity;Low stock level;Email when low;Impact on weight;Default (0 = No, 1 = Yes);Combination available date;Image position;Image URLs (x,y,z...);Image alt texts (x,y,z...);ID / Name of shop;Advanced Stock Managment;Depends on stock;Warehouse
+10000000;U6399;Taille:size:0;TU:0;U6399_TU;;;;;;;1;;;;;;;;;;;;;

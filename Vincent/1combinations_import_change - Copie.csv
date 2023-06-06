@@ -1,0 +1,3 @@
+Activé;EAN13 - produit;Product ID*;Référence produit;Nom produit;Taxe rule id;Prix TTC;Attribute (Name:Type:Position)*;EAN13 - decli;TailleV;Value (Value:Position)*;Reference(nec pour trouver)- decli;Quantity
+0;9005051111;5051111;AZERTY;TRUC COOL;12;29,99;Taille:size:0;9,00505E+12;TU;TU:0;AZERTY_TU;3
+0;9005051111;5051111;AZERTY;TRUC COOL;12;29,99;Taille:size:0;9,00505E+12;S;TU:0;AZERTY_S;2

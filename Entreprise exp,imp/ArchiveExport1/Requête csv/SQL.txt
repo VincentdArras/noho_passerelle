@@ -1,0 +1,4 @@
+noho_address.address1, noho_address.postcode, noho_address.city, noho_address.phone
+LEFT JOIN noho_address ON noho_orders.id_customer = noho_address.id_customer
+
+https://www.noho.fr/admin655rask4n/index.php/configure/advanced/sql-requests/5/view?_token=InZVTlm3UumKiB0t3h3-Qkr2JO_uF7yVsNaJIYCzlO8

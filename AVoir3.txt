@@ -1,0 +1,16 @@
+Pour lundi:
+
+Resoudre product import bug carte cadeau
+Voir pour passer sur boucle 15min
+
+27/02
+Taches cron prog python supp(ou met stock 0) et ligne pas prise et add carte cadeau en stock 0
+
+02/03
+voir pour serveur
+6 minutes de temps erreur, peux mieux faire
+lien ok: https://social.technet.microsoft.com/Forums/fr-FR/68019b24-78a5-4db0-a150-ada921930924/task-scheduler-failed-to-start-additional-data-error-value-2147943785?forum=winservergen
+
+03/03
+6 minutes de temps erreur, peux mieux faire
+voir pour livraison

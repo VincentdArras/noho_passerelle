@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proshop SYSTEM "ProshopVente.dtd">
+<proshop datesysteme="2021-02-26T23:02:02">
+ <ventes date="2021-02-26" magasin="008">
+  <ticket numero="853" heure="22:59:54">
+   <client>
+    <code>2117</code>
+    <nom>LOPES</nom>
+    <prenom>Laetitia</prenom>
+    <adresse1>15 Chemin Du Mas Dels Chots</adresse1>
+    <codepostal>66330</codepostal>
+    <ville>Cabestany</ville>
+   </client>
+   <article libelle="Pantalon Simili Cuir Noir PA - Tailles : M" collection="PA">
+    <type>V</type>
+    <gencod>9005014872033</gencod>
+    <taille>M</taille>
+    <pvttc>11.996000</pvttc>
+    <quantite>1</quantite>
+   </article>
+   <article libelle="Pantalon Simili Cuir Noir PA - Tailles : S" collection="PA">
+    <type>V</type>
+    <gencod>9005014872026</gencod>
+    <taille>S</taille>
+    <pvttc>11.996000</pvttc>
+    <quantite>1</quantite>
+   </article>
+   <article libelle="PANTALON SIMILI NOIR MARIE - Tailles : 40" collection="MARIE">
+    <type>V</type>
+    <gencod>9005017708056</gencod>
+    <taille>40</taille>
+    <pvttc>15.996000</pvttc>
+    <quantite>1</quantite>
+   </article>
+   <reglements>
+    <mode>
+     <code>cb</code>
+     <montant>40.000000</montant>
+    </mode>
+   </reglements>
+  </ticket>
+ </ventes>
+</proshop>

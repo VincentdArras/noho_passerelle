@@ -1,0 +1,7 @@
+Code fournisseur;libelle fournisseur;num article interne;type web;libelle article;code groupe;libelle groupe;code famille;libelle famille;code sous famille;libelle sous famille;collection;modele;matiere;couleur;divers;photo;matiere interne;couleur interne;divers interne;ligne produit;libelle taille;quantite;gencod interne;gencod fournisseur;pvttc;pvpromo;code tva;taux tva;date creation;date modification
+AAAA;Truc cool;1111111;1;;;;;;;;;AAAA;Strass;vert;;;;;;;0;0;9001111111010    ;;49.99;49.99;1;20;20230126;20230213
+AAAA;Truc cool;1111111;1;;;;;;;;;AAAA;strass;vert;;;;;;;1;1;9001111111020    ;;49.99;49.99;1;20;20230127;20230213
+AAAA;Truc cool;1111111;1;;;;;;;;;AAAA;strass;vert;;;;;;;2;2;9001111111030    ;;49.99;49.99;1;20;20230127;20230213
+AAAA;Truc cool;1111111;1;;;;;;;;;AAAA;strass;bleu;;;;;;;3;0;9001111111040    ;;49.99;49.99;1;20;20230127;20230213
+AAAA;Truc cool2;1111112;1;;;;;;;;;AAAA;strass;bleu;;30;;;;;;;9001111112010    ;;49.99;49.99;1;20;20230127;20230213
+NOHO;BAW;50321441;1;;;;;;;;;;;;;2;;;;;;;;;0.01;0.01;0;0;0;0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proshop SYSTEM "ProshopVente.dtd">
+<proshop datesysteme="2021-03-07T19:02:02">
+ <ventes date="2021-03-07" magasin="008">
+  <ticket numero="867" heure="18:32:15">
+   <client>
+    <code>2301</code>
+    <nom>ALSINA</nom>
+    <prenom>Magali</prenom>
+    <adresse1>2 rue des Vergers</adresse1>
+    <codepostal>66300</codepostal>
+    <ville>Thuir</ville>
+   </client>
+   <article>
+    <type>R</type>
+    <gencod>FDP</gencod>
+    <taille/>
+    <pvttc></pvttc>
+    <remise/>
+    <coderemise/>
+   </article>
+   <reglements>
+    <mode>
+     <code>cb</code>
+     <montant>0.000000</montant>
+    </mode>
+   </reglements>
+  </ticket>
+ </ventes>
+</proshop>

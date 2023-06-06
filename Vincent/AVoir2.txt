@@ -1,0 +1,65 @@
+Erreur taches cron:
+erreur qui bloque l'éxécution de la taches, voir avec session admin pour donner le
+droits d'ouvrir une session en tant que taches. 
+https://www.ibm.com/docs/fr/iis/9.1?topic=pgcws2-configuring-permissions-groups-windows-server-2008-domain-controller
+https://www.ibm.com/docs/fr/capm?topic=permissions-log-as-service-permission
+http://lucky-le-koala.over-blog.com/2013/11/microsoft-planificateur-de-t%C3%A2che.html#:~:text=L'erreur%202147943645%20appara%C3%AEt%20quand,a%20pas%20les%20droits%20n%C3%A9cessaire.
+https://social.technet.microsoft.com/Forums/fr-FR/68019b24-78a5-4db0-a150-ada921930924/task-scheduler-failed-to-start-additional-data-error-value-2147943785?forum=winservergen
+
+
+Erreur importation des stocks car en fonction de l'heure, proshop remontera un
+produit en stock qui ne l'est plus.
+
+Voir s'il est possible d'obtenir un fichier exportcsv avec uniquement les 
+modification de la derniere heure. Quit à avoir un autre fichier pour un export
+nocturne plus global.
+
+Attention le typeweb 1 ne remonte pas les articles avec un stock à 0 donc si un
+article sort du stock mag8 de proshop pour x ou y raison prestashop n'aura pas la
+nouvelle, et il restera à 1.
+
+Erreur d'importation des gencods car tous les produits ne sont pas dans le exportcsv 
+donc certain produit vendu n'ont pas de gencod complet.
+
+
+Le top serait un export avec les modifs de la dernière heure en typeweb2 pour eviter
+les erreurs.
+
+
+Typeweb2, exporté toutes les heures, avec uniquement les modififications de la derniere heure
+Typeweb2, 1 fois/jour la nuit (entre 3et4h), avec les modifications des 7 derniers jours
+
+Typeweb2, 1 seul fois, avec les modifs de 3 ans
+
+
+
+22/02
+
+2 articles ne sont pas remontés 9005045171	9005044692 ?????
+
+commande pour changer les paramètres de proshop web? ?????
+
+Import avec les modifs de la derniere heure? NON
+
+2 paramètres imports par jours possible? NON
+
+23/02
+Proshop:
+Où modifier taches cron? 
+
+Voir serveur admin, mail franck delai 0 jour
+
+
+"""Module:
+desactiver automatiquement declinaisons à 0 et ne pas les réactiver si le stock remonte
+quand une déclinaison est créée: activé ou désactivé ?"""
+
+24/02
+Erreur stock:
+Module:	- desactiver quand déclinaison = 0 → inutile car module d'import supprimme
+les déclinaisons
+		- desactiver les produits → pas possible car le produit n'arriverra pas
+pas forcément à un stock 0 et même s'il comprend il désactivera toute les déclinaisons
+jusqu'à intervention humaine
+		- faire 4 taches cron pour désactiver produit pendant 30 minutes, ne fais
+que réduire le délais avec beaucoup d'action nécessaire.

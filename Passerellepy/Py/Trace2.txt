@@ -1,0 +1,115 @@
+Début du fichier (vérifier archive pour données antérieurs)
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+Heure taches cron:
+XX:40 -> Export commande sur ftp (module presta) <Cron sur module>
+XX:50 -> Création commande Xml (code python) <Cron sur serveur?>
+XX:00 -> Import commande sur proshop <Cron par Proshop>
+XX:15 -> Export des références proshop <Cron par Proshop>
+XX:20 -> Import des références proshop (nouveau produit module prestashop) <Cron sur module>
+XX:30 -> Import des références proshop (maj produit module prestashop) <Cron sur module>
+
+
+
+***Export du 2023-03-08 15:56:18.375864
+Commande non traité
+Produit retiré pendant 1 export 9005044423014
+Produit retiré pendant 1 export 9005044249010
+Produit retiré pendant 1 export 9005044179119
+Produit retiré pendant 1 export 9005044808019
+Produit retiré pendant 1 export 9005045558012
+Produit retiré pendant 1 export 9005044888110
+Produit retiré pendant 1 export 9005044930031
+Produit retiré pendant 1 export 9005045438017
+Produit retiré pendant 1 export 9005045441017
+Export terminé
+
+***Export du 2023-03-08 15:57:37.638789
+Commande non traité
+Produit retiré pendant 1 export 9005044423014
+Produit retiré pendant 1 export 9005044249010
+Produit retiré pendant 1 export 9005044179119
+Produit retiré pendant 1 export 9005044808019
+Produit retiré pendant 1 export 9005045558012
+Produit retiré pendant 1 export 9005044888110
+Produit retiré pendant 1 export 9005044930031
+Produit retiré pendant 1 export 9005045438017
+Produit retiré pendant 1 export 9005045441017
+Export terminé
+
+***Export du 2023-03-08 15:59:03.115008
+Commande non traité
+Produit retiré pendant 1 export 9005045168013
+Produit retiré pendant 1 export 9005045338010
+Produit retiré pendant 1 export 9005044423014
+Produit retiré pendant 1 export 9005045282016
+Produit retiré pendant 1 export 9005044249010
+Produit retiré pendant 1 export 9005044179119
+Produit retiré pendant 1 export 9005044808019
+Produit retiré pendant 1 export 9005045558012
+Produit retiré pendant 1 export 9005044888110
+Produit retiré pendant 1 export 9005044140010
+Produit retiré pendant 1 export 9005044930031
+Produit retiré pendant 1 export 9005045438017
+Produit retiré pendant 1 export 9005045441017
+Export terminé
+
+***Export du 2023-03-10 14:33:21.917445
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+Error occurred : list index out of range
+
+***Export du 2023-03-10 14:34:11.308897
+
+***Export du 2023-03-10 14:34:26.979473
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+
+***Export du 2023-03-10 14:35:33.720431
+Commande non traité
+Produit retiré pendant 1 export 9005044928045
+
+***Export du 2023-03-10 14:37:08.327335
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+
+***Export du 2023-03-10 14:52:17.042052
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+
+***Export du 2023-03-10 14:54:15.187228
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+Export terminé
+
+***Export du 2023-03-10 15:02:04.130673
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+Export terminé
+
+***Export du 2023-03-10 15:03:26.986119
+Commande non traité
+Produit retiré pendant 1 export 9005044927093
+Produit retiré pendant 1 export 9005044928045
+Export terminé

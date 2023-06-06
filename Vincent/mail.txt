@@ -1,0 +1,54 @@
+
+Bonjour Franck,
+
+Ci-dessous, le mail accompagné des pièce jointes que nous
+transmettons pour le fonctionnement de Proshopweb.
+
+N’hésitez pas a transmettre nos coordonnées à votre contact pour
+qu’il échange directement avec nous sur le sujet.
+
+[…]
+
+Dans la gestion d'un site e-commerce, nous proposons uniquement comme
+solution une mise à disposition d'un fichier xml ou csv qui a pour
+objectif de mettre à jour la base de données des références du
+site internet.
+
+Ce module supplémentaire reste une solution soumise à devis.
+
+Par conséquent la passerelle d'intégration de ce fichier est à la
+charge du webmaster.
+
+Nous avons aussi la possibilité d'intégrer les ventes réalisées
+sur le site dans Proshop. Il faut pour cela disposer d'un fichier xml
+généré aussi par le webmaster.
+
+Vous trouverez en pièce jointe les éléments sur la conception des
+fichiers d’export (ExportReference.dtd) et d'import
+(ProshopVente.dtd) web.
+Vous trouverez également des exemples de fichiers xml et csv
+(FichiersExemples.zip) : References.xml et References.csv contenant le
+référentiel et Web200806181512.xml ou Webexemple.xml pour les
+ventes.
+
+Le fichier de références va comporter les éléments concernant
+l'article comme sa désignation, son prix, son stock, son Gencod par
+exemple, en différentiel ou non.
+
+Chaque article a un paramètre "typeweb" dans Proshop qui permet de
+savoir si on veut ou non le mettre en ligne.
+La configuration des types web est la suivante :
+
+Typeweb à 0 : Pas envoyé dans le fichier xml.
+Typeweb à 1 : Envoyé dans le fichier xml si stock >0.
+Typeweb à 2 : Toujours envoyé.
+
+Il est possible de planifier les envois plusieurs fois par jour et
+également d'envoyer les photos des articles (4 photos max par
+article) si elles sont associées dans Proshop.
+
+Je reste à votre disposition pour toute information complémentaire,
+
+Cordialement,
+
+Kevin SICOT Business Developer - Solutions magasins
